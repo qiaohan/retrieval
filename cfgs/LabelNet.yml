@@ -1,0 +1,20 @@
+batch_size: 32
+lr: 1.0e-5
+batch_norm: False
+basic_model: vgg16
+save_dir: ckpt/clabel
+path_base: /home/arcthing/qiaohan/data/cloth_data/DeepFashion/
+datalist_file: datalist/type_name.txt
+save_period: 1000
+num_epochs: 5
+#image format
+channels: 3
+bgr: False
+crop_shape:
+  w: 225
+  h: 300
+scale_shape:
+  #w: 225
+  #h: 300
+  w: 224
+  h: 224

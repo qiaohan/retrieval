@@ -1,0 +1,1 @@
+from vgg16 import get_symbol as get_vgg16
